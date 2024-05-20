@@ -1,6 +1,12 @@
 function generateArray(){}
 
-generateArray.generate = function(){
-    array = [1, 2, 2];
+generateArray.prototype.generate = function (size){
+    
+    let array = [];
+
+    for(index = 0; index < size; index++){
+        array[index] = index+1;
+    }
+
     return array;
 }
