@@ -1,8 +1,10 @@
 describe("Electrons testing", function (){
 
+    array;
+
     it("test", function (){
 
-        expect(1).toEqual(1);
+        expect(array).not.toBeNaN;
 
     });
 
