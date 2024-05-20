@@ -1,13 +1,7 @@
 describe("Electrons testing", function () {
   array = new generateArray.prototype.generate(5);
 
-  let sum = 0;
-
-  array.forEach((element) => {
-    if (element % 2 == 1) {
-      sum += element - 1;
-    }
-  });
+  let sum = calculateArray.prototype.sum(array);
 
   it("test", function () {
     expect(array).not.toBeNaN;

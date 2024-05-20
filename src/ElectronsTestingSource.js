@@ -9,3 +9,17 @@ generateArray.prototype.generate = function (size) {
 
   return array;
 };
+
+function calculateArray() {}
+
+calculateArray.prototype.sum = function (array) {
+  let sum = 0;
+
+  array.forEach((element) => {
+    if (element % 2 == 1) {
+      sum += element - 1;
+    }
+  });
+
+  return sum;
+};
