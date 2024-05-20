@@ -4,4 +4,8 @@ describe("Electrons testing", function () {
   it("test", function () {
     expect(array).not.toBeNaN;
   });
+
+  it("Array test", function () {
+    expect(array[1]).toEqual(2);
+  });
 });
