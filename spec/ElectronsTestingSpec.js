@@ -1,5 +1,5 @@
 describe("Electrons testing", function () {
-  array = [1, 1, 2];
+  array = new generateArray.generate();
 
   it("test", function () {
     expect(array).not.toBeNaN;
