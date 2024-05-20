@@ -1,11 +1,7 @@
-describe("Electrons testing", function (){
+describe("Electrons testing", function () {
+  array = [1, 1, 2];
 
-    array;
-
-    it("test", function (){
-
-        expect(array).not.toBeNaN;
-
-    });
-
+  it("test", function () {
+    expect(array).not.toBeNaN;
+  });
 });
